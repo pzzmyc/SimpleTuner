@@ -1429,7 +1429,7 @@ def download_model_files(base_dir):
     repo_id = "stabilityai/stable-diffusion-xl-base-1.0"
     
     # Define the directory to store the downloaded files
-    clone_dir = os.path.join(base_dir, "sdxloutput")
+    clone_dir = os.path.join(base_dir)
     os.makedirs(clone_dir, exist_ok=True)
     
     # List of files to download
